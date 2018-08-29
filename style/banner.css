@@ -1,0 +1,55 @@
+/*BANNER START*/
+
+.banner_container{
+    grid-column: 2/4;
+    grid-row: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.banner{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 5%;
+}
+
+.banner>button{
+    background-color: #000066;
+    border: none;
+    margin-top: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.banner_foto{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    z-index: -99999;
+    margin: 5px;
+}
+
+.banner_foto>img{
+    width: 100%;
+}
+
+.banner>h2,h5{
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
+}
+
+/*BANNER END*/
+
+/*MEDIA START*/
+
+@media only screen and (max-width: 936px) {
+    .banner_foto{
+        display: none;
+    }
+    .banner{
+        grid-column: 1/3;
+        justify-self: center;
+    }
+}
+
+/*MEDIA END*/

@@ -1,0 +1,29 @@
+/*SLOGAN START*/
+
+.slogan{
+    grid-area: slogan;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin: 5px;
+    display: grid;
+    justify-content: center;
+}
+
+.slogan>h2{
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+
+.slogan>h3{
+    margin: 0;
+    padding: 0;
+    color: #C0C0C0;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/*SLOGAN END*/
